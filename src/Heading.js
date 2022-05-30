@@ -1,14 +1,9 @@
+import React from 'react'
 
-const Heading =()=>{
-    return(
-        <div>
-           <h3>
-            WELOCME TO MY VIBE
-               </h3>
-        </div>
-
-
-    )
+const Heading = () => {
+  return (
+    <div>Heading</div>
+  )
 }
-export default Heading;
 
+export default Heading

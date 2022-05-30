@@ -3,9 +3,8 @@ import { Button } from "@mui/material"
 // import EarbudsIcon from "@mui/icons-material/Earbuds"
 
 import { HeadphonesIcon,EarbudsIcon } from "@mui/icons-material"
-import Heading from "./Heading"
+import Heading from "./Heading.1"
 const App=()=>{
-  let status = false
   return(
     <div>
       <Heading/>
