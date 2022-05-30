@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { Button } from "@mui/material"
+// import HeadphonesIcon from "@mui/icons-material/Headphones"
+// import EarbudsIcon from "@mui/icons-material/Earbuds"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import { HeadphonesIcon,EarbudsIcon } from "@mui/icons-material"
+import Heading from "./Heading"
+const App=()=>{
+  let status = false
+  return(
+    <div>
+      <Heading/>
+      <h6>dhd</h6>hijkus
     </div>
-  );
+  )
 }
-
-export default App;
+export default  App
