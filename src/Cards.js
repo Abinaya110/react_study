@@ -1,11 +1,9 @@
-import {Cards}from"./Cards"
-export default Cards;
+import React from 'react'
 
-export function Cards(){
-<div>
-    
-</div>
-   
-
-
+const Cards = () => {
+  return (
+    <div>Cards</div>
+  )
 }
+
+export default Cards
